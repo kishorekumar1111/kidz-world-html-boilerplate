@@ -1,0 +1,165 @@
+.title{
+    height: 500px;
+    display: inline;
+
+}
+.kw{
+    display: flex;
+    justify-content: space-between;
+}
+.imgkw{
+    height: 80px;
+    width: 120px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
+.cart-text{
+    display: flex;
+}
+.nnn{
+    position: relative;
+    bottom: 520px;
+    left: 80px ;
+    color: white;
+    font-size: xx-large;
+
+}
+.cartimg{
+    height: 50px;
+    width: 70px;
+}
+header{
+    background-image: url("./assets/kw-background.png");
+    background-size: 100% 100%;
+    height: 500px;
+    color: white;
+}
+
+#main-img{
+    
+
+    /* position: relative; */
+    /* top: 10px; */
+    /* width: 100%; */
+
+}
+.cartkw{
+    position: relative;
+    right: 800px;
+    bottom: 60px;
+}
+#main-img{
+    height: 500px;
+    width: 1500px;
+    position: relative;
+    bottom: 200px;
+}
+.cart-white{
+    color: blue;
+}
+.books{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+.games{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+}
+.discover{
+    position: relative;
+    top: 150px;
+}
+.handmade{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+}
+.book{
+    height: 300px;
+    width: 200px;
+    
+     
+   
+}
+.others{
+    height: 300px;
+    width: 300px;
+}
+
+.cartimg{
+    height: 40px;
+    width:40px;
+
+}
+p{
+    display: flex;
+    flex-direction: column;
+}
+.bold{
+    font-weight: 800;
+    font-size: larger;
+}
+.thin{
+    font-weight: 200;
+    color: gray;
+}
+h3{
+    font-size:large;
+}
+.discover{
+    font-size: xx-large;
+}
+.dnb{
+    font-size: xx-large;
+}
+@media screen and (max-width: 700px) {
+    .title {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .cartkw {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    
+    .games,
+    .handmade {
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .books{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .book{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .bold{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    
+    .others {
+        display: flex;
+    }
+}
